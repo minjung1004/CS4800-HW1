@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Folder {
-    private String name;
+    private String folderName;
     private List<Folder> subFolders = new ArrayList<>();
     private List<File> subFiles = new ArrayList<>();
 
     public Folder(String folderName){
-        this.name = folderName;
+        this.folderName = folderName;
     }
     public String getFolderName(){
-        return name;
+        return folderName;
     }
     public List<Folder> getSubFolders() {
         return subFolders;
