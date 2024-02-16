@@ -11,8 +11,13 @@ public class File {
        return fileName;
    }
 
-   public String display(){
-       // print name
+   public String display(int tab){
+       String output = "";
+       for(int file = 0; file < tab; file++){
+           output += ("+");
+       }
+       output += ("File: " + fileName + "\n");
+       return output;
    }
 
 }

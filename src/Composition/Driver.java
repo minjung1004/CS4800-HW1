@@ -21,12 +21,12 @@ public class Driver {
         php_demo1.addSubFolder("Include Path");
         php_demo1.addSubFolder("Remote Files");
 
-        //print
+        System.out.println(php_demo1.display());
 
         php_demo1.deleteSubFolder("app");
-        //print
+        System.out.println(php_demo1.display());
 
         php_demo1.deleteSubFolder("public");
-        //print
+        System.out.println(php_demo1.display());
     }
 }
